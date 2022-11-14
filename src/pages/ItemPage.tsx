@@ -23,11 +23,22 @@ export default function ItemPage() {
 
   const { id } = useParams();
 
-  const ITEM = useSelector((state: RootState) => state.data.pickedCoworking);
+  const anotherId = useLocation();
 
   useEffect(() => {
-    dispatch(pickCoworking(Number(id)));
-  }, [dispatch, id]);
+    if (id) {
+      dispatch(pickCoworking(Number(id)));
+    }
+    if (!id) {
+      dispatch(pickCoworking(Number(anotherId.state)));
+    }
+  }, [dispatch, id, anotherId]);
+
+  const ITEM = useSelector((state: RootState) => state.data.pickedCoworking);
+
+  if (!ITEM) {
+    console.log("NO ITEM");
+  }
 
   return (
     <div>
