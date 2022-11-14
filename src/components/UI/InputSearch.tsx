@@ -45,7 +45,9 @@ const InputSearch: React.FC<{
     setText(event.target.value);
   }
 
-  const filteredCities = availableCities.filter((item) => item.includes(text));
+  const filteredCities = availableCities.filter((item) =>
+    item.toLowerCase().includes(text.toLowerCase())
+  );
 
   return (
     <div className="search-input">

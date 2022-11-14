@@ -8,7 +8,7 @@ const ItemImages: React.FC<{ images: string[] }> = ({ images }) => {
     <div className="item-images-container">
       <div className="item-images-component">
         <div className="main-image">
-          <img src={images[1]} alt="coworking" />
+          <img src={images[0]} alt="coworking" />
         </div>
         <div className="middle-images">
           <img src={images[2]} alt="coworking" />
