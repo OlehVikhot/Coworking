@@ -1,3 +1,5 @@
+Link for application https://olehvikhot.github.io/Coworking/
+
 How to run this project on your PC
 1) git clone https://github.com/OlehVikhot/Coworking.git
 2) npm install
