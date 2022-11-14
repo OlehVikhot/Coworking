@@ -34,10 +34,15 @@ export default function ItemPage() {
     }
   }, [dispatch, id, anotherId]);
 
-  const ITEM = useSelector((state: RootState) => state.data.pickedCoworking);
+  let ITEM = useSelector((state: RootState) => state.data.pickedCoworking);
+  const allCoworkings = useSelector(
+    (state: RootState) => state.data.allCoworkings
+  );
 
   if (!ITEM) {
-    console.log("NO ITEM");
+    ITEM = allCoworkings.filter(
+      (item) => item.id === Number(id) && anotherId.state
+    )[0];
   }
 
   return (
