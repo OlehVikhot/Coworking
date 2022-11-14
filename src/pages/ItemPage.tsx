@@ -119,7 +119,7 @@ export default function ItemPage() {
           <Booking />
         </section>
         <section className="perks-list">
-          <h3>Зручності</h3>
+          <h3>Perks</h3>
           <ListPerks list={ITEM.perksList} />
         </section>
         <section className="map">
@@ -132,7 +132,7 @@ export default function ItemPage() {
             <Comment />
           </div>
           <div className="text-button">
-            <ButtonText text="Дивитись більше відгуків" />
+            <ButtonText text="See more reviews" />
           </div>
         </section>
       </div>

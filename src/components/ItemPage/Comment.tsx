@@ -18,8 +18,8 @@ const Comment = () => {
       </div>
       <div className="text">
         <p>
-          Дуже рекомендую Комуну. Чудове місце для роботи та нетворкінгу. Багато
-          зон, чудова ціна. Усе необхідне поруч
+          I highly recommend the Commune. A great place to work and network.
+          Many zones, great price. Everything you need is nearby
         </p>
       </div>
     </div>

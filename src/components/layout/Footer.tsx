@@ -12,43 +12,43 @@ const Footer: React.FC = () => {
         </div>
         <div className="info-container">
           <div className="email">
-            <h3>Не пропусти вигідних пропозицій</h3>
-            <InputEmail placeholder="Введи свій емейл" />
+            <h3>Don't miss out on great offers</h3>
+            <InputEmail placeholder="Enter your email" />
           </div>
           <div className="info">
             <div>
               <ul>
-                <h3>Пошук</h3>
+                <h3>Search</h3>
                 <li>
-                  <a href="#">За містом</a>
+                  <a href="#">By city</a>
                 </li>
                 <li>
-                  <a href="#">По карті</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <h3>Для коворкінгу</h3>
-                <li>
-                  <a href="#">Додати свій коворкінг</a>
-                </li>
-                <li>
-                  <a href="#">Прайси</a>
+                  <a href="#">By map</a>
                 </li>
               </ul>
             </div>
             <div>
               <ul>
-                <h3>Про коворкінг</h3>
+                <h3>For coworkings</h3>
                 <li>
-                  <a href="#">Що таке коворкінг?</a>
+                  <a href="#">Add your coworking</a>
                 </li>
                 <li>
-                  <a href="#">Які переваги коворкінгу?</a>
+                  <a href="#">Prices</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <h3>About coworking</h3>
+                <li>
+                  <a href="#">What is coworking?</a>
                 </li>
                 <li>
-                  <a href="#">Чому саме наш сервіс для пошуку?</a>
+                  <a href="#">What are the advantages of coworking?</a>
+                </li>
+                <li>
+                  <a href="#">Why our search service?</a>
                 </li>
               </ul>
             </div>

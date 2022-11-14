@@ -60,7 +60,7 @@ const ItemCoworking: React.FC<{
           <h4>{item.name}</h4>
           <div className="rating">
             <Rating rating={item.rating} />
-            <p>{`${item.reviews} відгуків`}</p>
+            <p>{`${item.reviews} reviews`}</p>
           </div>
           <p className="city-main">{item.city}</p>
           <div className="button">
@@ -69,7 +69,7 @@ const ItemCoworking: React.FC<{
               state={item.id}
               onClick={setPickedCoworking}
             >
-              <ButtonPrimary text="Переглянути" secondary />
+              <ButtonPrimary text="Open" secondary />
             </Link>
           </div>
         </div>
