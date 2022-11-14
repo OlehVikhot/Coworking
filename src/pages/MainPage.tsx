@@ -38,7 +38,7 @@ export default function MainPage() {
               <InputSearch placeholder="Select a city to start" />
             </div>
             {cityPath ? (
-              <Link className="link" to={`/search/${cityPath}`}>
+              <Link className="link" to={`/Coworking/search/${cityPath}`}>
                 <ButtonPrimary text="Find out" />
               </Link>
             ) : (

@@ -44,7 +44,7 @@ const ItemCoworking: React.FC<{
     <div>
       <div className={style}>
         <Link
-          to={`/item-page/${item.id}`}
+          to={`/Coworking/item-page/${item.id}`}
           state={item.id}
           onClick={setPickedCoworking}
           className="image"
@@ -65,7 +65,7 @@ const ItemCoworking: React.FC<{
           <p className="city-main">{item.city}</p>
           <div className="button">
             <Link
-              to={`/item-page/${item.id}`}
+              to={`/Coworking/item-page/${item.id}`}
               state={item.id}
               onClick={setPickedCoworking}
             >

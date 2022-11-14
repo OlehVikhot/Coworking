@@ -10,9 +10,9 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="*" element={<MainPage />} />
-        <Route path="/search/:id" element={<SearchPage />} />
-        <Route path="/item-page/:id" element={<ItemPage />} />
+        <Route path="/Coworking/*" element={<MainPage />} />
+        <Route path="/Coworking/search/:id" element={<SearchPage />} />
+        <Route path="/Coworking/item-page/:id" element={<ItemPage />} />
       </Routes>
     </Layout>
   );
