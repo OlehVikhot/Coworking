@@ -50,7 +50,7 @@ const NavigationBar: React.FC<{ search?: boolean }> = ({ search }) => {
   return (
     <nav className="navbar">
       {isVisible && content}
-      <Link to="/Coworking">
+      <Link to="/">
         <img src={logo} alt="logo" />
       </Link>
       {search && (

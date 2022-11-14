@@ -864,7 +864,7 @@ export const DUMMY_DATA = [
     top: false,
   },
   {
-    id: 3253415345,
+    id: 32534153415,
     name: "Futura Hub",
     country: "Ukraine",
     city: "Ternopil",
@@ -960,7 +960,7 @@ export const DUMMY_DATA = [
     top: false,
   },
   {
-    id: 1251241312,
+    id: 12511241312,
     name: "easySpace",
     country: "Ukraine",
     city: "Ivano-Frankivsk",
@@ -1056,7 +1056,7 @@ export const DUMMY_DATA = [
     top: false,
   },
   {
-    id: 3425345345345,
+    id: 311425345345345,
     name: "Old Amsterdam",
     country: "Ukraine",
     city: "Kharkiv",
@@ -1148,7 +1148,7 @@ export const DUMMY_DATA = [
     top: true,
   },
   {
-    id: 3325345345345,
+    id: 332522345345345,
     name: "CoMMuna",
     country: "Ukraine",
     city: "Lutsk",
@@ -1244,7 +1244,7 @@ export const DUMMY_DATA = [
     top: true,
   },
   {
-    id: 3325123345,
+    id: 332544123345,
     name: "W-WorkSpace",
     country: "Ukraine",
     city: "Lviv",
@@ -1315,7 +1315,7 @@ export const DUMMY_DATA = [
     top: true,
   },
   {
-    id: 323445345345,
+    id: 323446455345345,
     name: "UStart",
     country: "Ukraine",
     city: "Lviv",
@@ -1372,7 +1372,7 @@ export const DUMMY_DATA = [
     top: true,
   },
   {
-    id: 15314324523,
+    id: 15314312312523,
     name: "BeeWorking",
     country: "Ukraine",
     city: "Kyiv",
@@ -1469,7 +1469,7 @@ export const DUMMY_DATA = [
     top: false,
   },
   {
-    id: 1231236514324523,
+    id: 12312125644523,
     name: "iHUB",
     country: "Ukraine",
     city: "Kyiv",
@@ -1522,7 +1522,7 @@ export const DUMMY_DATA = [
     top: true,
   },
   {
-    id: 11236512324523,
+    id: 1123112324523,
     name: "easySpace",
     country: "Ukraine",
     city: "Kyiv",
@@ -1618,7 +1618,7 @@ export const DUMMY_DATA = [
     top: false,
   },
   {
-    id: 11236512324523,
+    id: 1156512324523,
     name: "TRUE OFFICE",
     country: "Ukraine",
     city: "Kyiv",

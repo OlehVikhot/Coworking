@@ -33,7 +33,7 @@ const InputSearch: React.FC<{
 
   function addCityFilterHandler(city: string) {
     dispatch(addCityFilter(city));
-    navigation && navigate(`/Coworking/search/${city}`);
+    navigation && navigate(`/search/${city}`);
     setIsActive(false);
   }
 
