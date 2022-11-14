@@ -1,0 +1,22 @@
+@import "src/constants/colors";
+
+@mixin slider-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 5.4rem;
+}
+
+.slider-button-active {
+  @include slider-button;
+  color: white;
+  background-color: $main-black;
+}
+
+.slider-button-unactive {
+  @include slider-button;
+  color: $main-black;
+  border: 2px solid $main-black;
+  background-color: white;
+}

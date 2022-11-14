@@ -1,0 +1,38 @@
+@import "src/constants/colors";
+
+.seacrh-sort-component {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  @media only screen and (max-width: $bp-medium) {
+    justify-content: end;
+  }
+  .amount {
+    font-family: "Inter-Regular";
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: $gray1;
+    @media only screen and (max-width: $bp-medium) {
+      display: none;
+    }
+  }
+  .sort {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    .sort-text {
+      font-family: "Inter-Regular";
+      font-size: 1.8rem;
+      line-height: 150%;
+      color: $gray1;
+    }
+  }
+
+  .icon-text {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}

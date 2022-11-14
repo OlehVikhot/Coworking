@@ -1,0 +1,36 @@
+@import "src/constants/colors";
+
+@media only screen and (max-width: $bp-large) {
+  .slider-container {
+    align-items: center;
+    h2 {
+      text-align: center;
+    }
+    .items-container {
+      flex-direction: column;
+    }
+  }
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-family: "DidactGothic";
+    font-size: 5rem;
+    line-height: 100%;
+    margin-bottom: 5rem;
+  }
+  .items-container {
+    display: flex;
+    gap: 3.2rem;
+    margin-bottom: 3.6rem;
+  }
+  .buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3.2rem;
+  }
+}

@@ -1,0 +1,42 @@
+@import "src/constants/colors";
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 0;
+  min-height: 5rem;
+
+  @media only screen and (max-width: $bp-large) {
+    justify-content: space-around;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    .search {
+      display: none;
+    }
+  }
+
+  .search {
+    align-self: flex-end;
+  }
+  .user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family: "Inter-Regular";
+    font-size: 2.2rem;
+    line-height: 150%;
+
+    @media only screen and (max-width: $bp-medium) {
+      p {
+        display: none;
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+}

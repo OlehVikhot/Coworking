@@ -1,0 +1,17 @@
+@import "src/constants/colors";
+
+.item-page-path {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  .back {
+    cursor: pointer;
+  }
+
+  svg {
+    color: $gray2;
+  }
+  .city {
+    color: $gray2;
+  }
+}

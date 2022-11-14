@@ -1,0 +1,52 @@
+@import "src/constants/colors";
+
+@mixin primary-button {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Inter-Regular";
+  letter-spacing: 0.02em;
+  font-style: normal;
+  width: 19.2rem;
+  height: 5.4rem;
+  font-size: 1.8rem;
+  gap: 0.75rem;
+  border: 0.2rem solid $main-black;
+}
+
+@mixin hover-active {
+  &:hover {
+    background-color: $additional-green;
+    color: $main-black;
+  }
+  &:active {
+    background-color: $main-green;
+    color: $gray5;
+  }
+}
+
+.primary-button-secondary {
+  @include primary-button;
+  background-color: rgba(255, 255, 255, 0);
+  color: $main-black;
+  border-color: $main-black;
+  @include hover-active;
+}
+
+.primary-button-active {
+  @include primary-button;
+  color: $gray5;
+  background-color: $main-black;
+  @include hover-active;
+}
+
+.primary-button-disabled {
+  @include primary-button;
+  background-color: rgba(255, 255, 255, 0);
+  color: $gray2;
+  border-color: $gray2;
+  cursor: not-allowed;
+}

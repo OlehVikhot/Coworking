@@ -1,0 +1,23 @@
+@import "src/constants/colors";
+
+@media only screen and (max-width: $bp-medium) {
+  .booking-section {
+    flex-wrap: wrap;
+    .type-rent {
+      display: none;
+    }
+  }
+}
+
+.booking-section {
+  font-family: "Inter-Regular";
+  font-size: 2.2rem;
+  line-height: 150%;
+  display: flex;
+  gap: 7.5rem;
+  align-items: center;
+  justify-content: center;
+  background-color: $main-blue;
+  padding: 2.5rem 4rem;
+  border: 2px solid black;
+}

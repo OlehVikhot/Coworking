@@ -1,0 +1,11 @@
+.book-modal {
+  width: 78rem;
+  .inputs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+  }
+}

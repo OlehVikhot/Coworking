@@ -1,0 +1,37 @@
+@import "src/constants/colors";
+
+.email-input {
+  width: 41.6rem;
+  position: relative;
+
+  &:active {
+    color: $main-black;
+  }
+
+  .input {
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding-bottom: 1.5rem;
+    font-size: 1.8rem;
+    padding-left: 4rem;
+
+    border-bottom: 2px solid $main-black;
+    &:focus {
+      border-bottom-color: $main-green;
+    }
+  }
+
+  .icon-left {
+    position: absolute;
+    font-size: 1.6rem;
+    top: -0.3rem;
+  }
+
+  .icon-right {
+    position: absolute;
+    font-size: 1.6rem;
+    top: 0;
+    right: 0;
+  }
+}

@@ -1,0 +1,78 @@
+@import "src/constants/colors";
+
+.footer {
+  height: 31.8rem;
+  padding: 3.5rem 0;
+  display: flex;
+  flex-direction: column;
+
+  .logo {
+    margin-bottom: 3.5rem;
+    @media only screen and (max-width: $bp-large) {
+      display: none;
+    }
+  }
+
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    @media only screen and (max-width: $bp-large) {
+      justify-content: space-around;
+    }
+
+    .email {
+      h3 {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+      }
+      @media only screen and (max-width: $bp-large) {
+        display: none;
+      }
+    }
+
+    .info {
+      display: flex;
+      gap: 6rem;
+      @media only screen and (max-width: $bp-small) {
+        justify-content: space-around;
+        padding: 0 2rem;
+      }
+      h3 {
+        font-size: 2.2rem;
+        line-height: 150%;
+        margin-bottom: 1.4rem;
+      }
+      li {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        list-style-type: none;
+        margin-bottom: 0.6rem;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+        &:hover {
+          color: $main-green;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .social-media {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      @media only screen and (max-width: $bp-small) {
+        display: none;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: inherit;
+        &:hover {
+          color: $main-green;
+        }
+      }
+    }
+  }
+}

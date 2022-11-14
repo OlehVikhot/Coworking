@@ -1,0 +1,17 @@
+.perks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.3rem;
+  .perk {
+    display: flex;
+    align-items: center;
+    flex-basis: 32%;
+    gap: 1.5rem;
+    .text {
+      font-family: "Inter-Regular";
+      font-size: 2.2rem;
+      line-height: 150%;
+    }
+  }
+}

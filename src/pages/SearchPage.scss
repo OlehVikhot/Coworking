@@ -1,0 +1,26 @@
+@import "src/constants/colors";
+
+@mixin mobile {
+  @media only screen and (max-width: $bp-large) {
+    .filter-block {
+      display: none;
+    }
+  }
+}
+
+.search-page {
+  @include mobile;
+  .main-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    @media only screen and (max-width: $bp-large) {
+      justify-content: center;
+    }
+    .items-block {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

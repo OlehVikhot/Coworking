@@ -1,0 +1,76 @@
+@import "src/constants/colors";
+
+@mixin tablet {
+  @media only screen and (max-width: $bp-large) {
+    .item-images-component {
+      flex-wrap: wrap;
+    }
+  }
+  @media only screen and (max-width: $bp-small) {
+    .item-images-component {
+      flex-direction: row;
+      .main-image {
+        img {
+          // width: 100%;
+        }
+      }
+      .more-images {
+        display: none;
+      }
+      .middle-images {
+        display: none;
+      }
+    }
+  }
+}
+
+.item-images-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  @include tablet;
+}
+.item-images-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+  .main-image {
+    img {
+      width: 64rem;
+      height: 38rem;
+      object-fit: cover;
+    }
+  }
+  .middle-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    img {
+      width: 41.6rem;
+      height: 17.4rem;
+      object-fit: cover;
+    }
+  }
+  .more-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    img {
+      width: 19.2rem;
+      height: 29.4rem;
+      object-fit: cover;
+    }
+  }
+  .left {
+    img {
+      width: 19.2rem;
+      height: 38rem;
+    }
+  }
+}

@@ -1,0 +1,173 @@
+@import "src/constants/colors";
+
+@mixin tablet {
+  @media only screen and (max-width: $bp-large) {
+    display: flex;
+    padding: 0 7rem;
+    .description {
+      flex-direction: column;
+      align-items: flex-start;
+      .info-text {
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .map {
+      display: none;
+    }
+
+    .reviews {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .comments {
+        flex-direction: column;
+      }
+    }
+  }
+  @media only screen and (max-width: $bp-large) {
+    padding: 0 2rem;
+  }
+}
+
+.item-page {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  margin-top: 3.6rem;
+  margin-bottom: 6rem;
+  @include tablet;
+
+  .description {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    .info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      h2 {
+        font-family: "DidactGothic";
+        font-size: 5rem;
+        line-height: 100%;
+      }
+      .location {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        p {
+          font-family: "Inter-Regular";
+          font-size: 2.2rem;
+          line-height: 150%;
+        }
+      }
+      .check-added {
+        display: flex;
+        font-display: row;
+        gap: 1.5rem;
+      }
+      .text-button {
+        display: flex;
+      }
+      .scedule {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        h4 {
+          font-family: "DidactGothic";
+          font-size: 2.8rem;
+          line-height: 110%;
+        }
+        p {
+          font-family: "Inter-Regular";
+          font-size: 2.2rem;
+          line-height: 150%;
+        }
+        .days-hours {
+          display: flex;
+          font-display: row;
+          gap: 6rem;
+          .days {
+            min-width: 8.5rem;
+          }
+        }
+      }
+    }
+
+    .info-text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      h3 {
+        font-family: "DidactGothic";
+        font-size: 3.4rem;
+        line-height: 100%;
+      }
+      .description {
+        font-family: "Inter-Regular";
+        font-size: 2.2rem;
+        line-height: 150%;
+      }
+      .text-button {
+        display: flex;
+      }
+      .share-links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+        p {
+          font-family: "Inter-Regular";
+          font-size: 2.2rem;
+          line-height: 150%;
+        }
+        .links {
+          display: flex;
+          gap: 3rem;
+          .link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 8rem;
+            height: 5.4rem;
+            border: 2px solid black;
+          }
+        }
+      }
+    }
+  }
+
+  .perks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    h3 {
+      font-family: "DidactGothic";
+      font-size: 3.4rem;
+      line-height: 100%;
+    }
+  }
+
+  .map {
+    overflow: hidden;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+    .comments {
+      display: flex;
+      justify-content: space-between;
+      gap: 5.6rem;
+    }
+    .text-button {
+      display: flex;
+    }
+  }
+}

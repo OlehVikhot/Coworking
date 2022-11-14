@@ -1,0 +1,46 @@
+@import "src/constants/colors";
+
+.auth-input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Inter-Regular";
+  font-size: 1.8rem;
+  line-height: 150%;
+  width: 34rem;
+
+  input {
+    font-family: "Inter-Regular";
+    font-size: 1.8rem;
+    line-height: 150%;
+    width: 34rem;
+    height: 4.3rem;
+    border: 1px solid black;
+    padding: 0 0.8rem;
+    outline: none;
+    &:hover {
+      border: 2px solid $main-green;
+    }
+  }
+  .drop-down {
+    width: inherit;
+  }
+  .icon-right {
+    position: absolute;
+    top: 3.7rem;
+    right: 1rem;
+  }
+  .clear {
+    right: 3.5rem;
+  }
+  .icon-left {
+    position: absolute;
+    top: 3.7rem;
+    left: 1rem;
+    padding-right: 1.2rem;
+    img {
+      padding-right: 1.1rem;
+      border-right: 1px solid black;
+    }
+  }
+}

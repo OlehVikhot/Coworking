@@ -1,0 +1,27 @@
+@import "src/constants/colors";
+
+.search-filter-chips {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+  flex-wrap: wrap;
+
+  font-family: "Inter-Regular";
+  font-size: 1.8rem;
+  line-height: 150%;
+
+  .chip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $main-black;
+    color: white;
+    padding: 0.4rem 1.2rem;
+    gap: 1rem;
+    svg {
+      cursor: pointer;
+    }
+  }
+}

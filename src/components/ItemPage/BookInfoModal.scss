@@ -1,0 +1,47 @@
+@import "src/constants/colors";
+
+.book-modal-info {
+  width: 48.8rem;
+  .inputs-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4.2rem;
+    border: 1px solid black;
+    padding: 2.4rem;
+    font-family: "Inter-Regular";
+    font-size: 2.2rem;
+    line-height: 150%;
+
+    .info-block {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+    }
+
+    .filed {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .amount {
+      border-top: 1px solid $gray3;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1rem;
+      p {
+        font-family: "Inter-Regular";
+        font-size: 1.4rem;
+        line-height: 150%;
+      }
+    }
+
+    .total-amount {
+      border-top: 1px solid $gray3;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1rem;
+    }
+  }
+}

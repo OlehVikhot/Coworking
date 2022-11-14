@@ -1,0 +1,39 @@
+@import "src/constants/colors";
+
+.search-items-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-family: "DidactGothic";
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  button {
+    border: none;
+    padding: 0;
+    background: none;
+    color: inherit;
+    &:hover {
+      color: $main-green;
+    }
+  }
+  .active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: $main-black;
+    width: 8rem;
+    height: 5.4rem;
+    &:hover {
+      color: $main-black;
+      background-color: rgba(0, 0, 0, 0);
+      border: 2px solid black;
+    }
+  }
+}

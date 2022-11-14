@@ -1,0 +1,43 @@
+@import "src/constants/colors";
+
+@mixin mobile {
+  @media only screen and (max-width: $bp-small) {
+    width: 40rem;
+  }
+}
+.search-input {
+  width: 52.8rem;
+  position: relative;
+  color: $gray2;
+  @include mobile;
+
+  &:active {
+    color: $main-black;
+  }
+
+  .input {
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 1rem 1.6rem 1.5rem 1.6rem;
+    border-bottom: 2px solid $main-black;
+    font-size: 2.2rem;
+    &::placeholder {
+      font-size: 2.2rem;
+      line-height: 150%;
+    }
+    &:focus {
+      border-bottom-color: $main-green;
+    }
+    &:focus + .icon {
+      color: $main-black;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    font-size: 2.2rem;
+    top: 1.6rem;
+    right: 1.6rem;
+  }
+}
