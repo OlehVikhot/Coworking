@@ -38,6 +38,7 @@ export const BookModal: React.FC<Modal> = ({ onClick, chooseNextStep }) => {
     } else {
       setNameError(false);
     }
+
     if (
       phoneRef.current?.value === "" ||
       phoneRef.current?.value.length! < 10
@@ -46,6 +47,7 @@ export const BookModal: React.FC<Modal> = ({ onClick, chooseNextStep }) => {
     } else {
       setPhoneError(false);
     }
+
     if (
       emailRef.current?.value === "" ||
       !emailRef.current?.value.includes("@") ||
