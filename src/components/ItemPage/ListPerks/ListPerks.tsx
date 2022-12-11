@@ -1,4 +1,4 @@
-import { ALL_PERKS_LIST } from "../../../util/DATA";
+import { ALL_PERKS_LIST } from "../../../constants/DATA";
 
 import "./ListPerks.scss";
 

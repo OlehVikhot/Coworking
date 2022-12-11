@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import ErrorBoundary from "./pages/ErrorBoundary/ErrorBoundary";
 import Loader from "./pages/Loader/Loader";
-import { Layout } from "./components";
+import Layout from "./pages/Layout/Layout";
 
 const ItemPage = React.lazy(() => import("./pages/ItemPage/ItemPage"));
 const MainPage = React.lazy(() => import("./pages/MainPage/MainPage"));

@@ -8,7 +8,11 @@ import {
   ModalButtons,
 } from "../../../components";
 import { Modal } from "../../../types/Types";
-import { TYPE_OF_RENT, AMOUNT_PERSONS, RENT_TIME } from "../../../util/DATA";
+import {
+  TYPE_OF_RENT,
+  AMOUNT_PERSONS,
+  RENT_TIME,
+} from "../../../constants/DATA";
 import flag from "../../../assets/icons/ukraine.svg";
 import person from "../../../assets/icons/person.svg";
 import "./BookModal.scss";

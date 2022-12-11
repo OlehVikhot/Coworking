@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../store/configureStore";
 import { addFilter, removeFilter } from "../../../store/dataSlice";
-import { FILTER_LIST } from "../../../util/DATA";
+import { FILTER_LIST } from "../../../constants/DATA";
 import "./FiltersBlock.scss";
 
 const FilterListElement: React.FC<{ text: string }> = ({ text }) => {

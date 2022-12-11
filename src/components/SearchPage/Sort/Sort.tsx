@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { RootState } from "../../../store/configureStore";
 import { HeaderLayout, DropDownButton } from "../../../components";
-import { LIST_LIST, SORT_LIST } from "../../../util/DATA";
+import { LIST_LIST, SORT_LIST } from "../../../constants/DATA";
 import listIcon from "../../../assets/icons/format_list_bulleted.svg";
 import sortIcon from "../../../assets/icons/swap_vert.svg";
 import "./Sort.scss";

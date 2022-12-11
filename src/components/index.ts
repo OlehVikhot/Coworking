@@ -1,7 +1,6 @@
 //Layout
 import { Footer } from "./Layout/Footer/Footer";
 import { HeaderLayout } from "./Layout/HeaderLayout/HeaderLayout";
-import { Layout } from "../pages/Layout/Layout";
 import { ModalWindow } from "./Layout/ModalWindow/ModalWindow";
 import { NavigationBar } from "./Layout/NavigationBar/NavigationBar";
 
@@ -45,7 +44,6 @@ import { SliderPopular } from "./UI/Slider/SliderPopular/SliderPopular";
 export {
   Footer,
   HeaderLayout,
-  Layout,
   ModalWindow,
   NavigationBar,
   AuthInput,

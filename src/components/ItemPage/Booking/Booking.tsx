@@ -10,7 +10,11 @@ import {
   LogInModal,
   BookModal,
 } from "../../../components";
-import { TYPE_OF_RENT, AMOUNT_PERSONS, RENT_TIME } from "../../../util/DATA";
+import {
+  TYPE_OF_RENT,
+  AMOUNT_PERSONS,
+  RENT_TIME,
+} from "../../../constants/DATA";
 import "./Booking.scss";
 
 export const Booking = () => {
