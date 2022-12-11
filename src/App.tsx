@@ -1,20 +1,26 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
+import React, { Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+import ErrorBoundary from "./pages/ErrorBoundary/ErrorBoundary";
+import Loader from "./pages/Loader/Loader";
+import { Layout } from "./components";
 
-import Layout from "./components/layout/Layout";
-import ItemPage from "./pages/ItemPage";
-import MainPage from "./pages/MainPage";
-import PageNotFound from "./pages/PageNotFound";
-import SearchPage from "./pages/SearchPage";
+const ItemPage = React.lazy(() => import("./pages/ItemPage/ItemPage"));
+const MainPage = React.lazy(() => import("./pages/MainPage/MainPage"));
+const SearchPage = React.lazy(() => import("./pages/SearchPage/SearchPage"));
 
 function App() {
   return (
-    <Layout>
-      <Routes>
-        <Route path="*" element={<MainPage />} />
-        <Route path="/search/:id" element={<SearchPage />} />
-        <Route path="/item-page/:id" element={<ItemPage />} />
-      </Routes>
-    </Layout>
+    <ErrorBoundary>
+      <Suspense fallback={<Loader />}>
+        <Layout>
+          <Routes>
+            <Route path='*' element={<MainPage />} />
+            <Route path='/search/:id' element={<SearchPage />} />
+            <Route path='/item-page/:id' element={<ItemPage />} />
+          </Routes>
+        </Layout>
+      </Suspense>
+    </ErrorBoundary>
   );
 }
 

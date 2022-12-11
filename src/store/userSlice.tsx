@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import type { ItemsData, userData } from "../types/Types";
+import type { userData } from "../types/Types";
 
 export interface UserState {
   userData: {

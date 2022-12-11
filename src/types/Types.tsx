@@ -38,3 +38,14 @@ export type Modal = {
       | "BookInfoModal"
   ) => void;
 };
+
+export interface InputProps
+  extends React.InputHTMLAttributes<HTMLInputElement> {
+  dropdownList?: string[];
+  iconLeft?: string;
+  error?: boolean;
+  type?: string;
+  placeholder?: string;
+  labelText: string;
+  getText?: React.RefObject<HTMLInputElement>;
+}
