@@ -1,26 +1,39 @@
 {
   "files": {
-    "main.css": "/Coworking/static/css/main.afb45438.css",
-    "main.js": "/Coworking/static/js/main.1782acb4.js",
+    "main.css": "/Coworking/static/css/main.516be1dc.css",
+    "main.js": "/Coworking/static/js/main.3bfaf178.js",
+    "static/css/490.09981ac9.chunk.css": "/Coworking/static/css/490.09981ac9.chunk.css",
+    "static/js/490.28740296.chunk.js": "/Coworking/static/js/490.28740296.chunk.js",
+    "static/css/349.965d9210.chunk.css": "/Coworking/static/css/349.965d9210.chunk.css",
+    "static/js/349.67566d29.chunk.js": "/Coworking/static/js/349.67566d29.chunk.js",
+    "static/css/195.dddb9de4.chunk.css": "/Coworking/static/css/195.dddb9de4.chunk.css",
+    "static/js/195.8e491830.chunk.js": "/Coworking/static/js/195.8e491830.chunk.js",
+    "static/media/main-search.png": "/Coworking/static/media/main-search.9798ad849330697b1f0f.png",
     "static/media/coworking-owner.png": "/Coworking/static/media/coworking-owner.6c50602b414b24df9c94.png",
     "static/media/map.png": "/Coworking/static/media/map.6b232059555ce4a03749.png",
     "static/media/Inter-SemiBold.ttf": "/Coworking/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
     "static/media/Inter-Regular.ttf": "/Coworking/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/info-first.png": "/Coworking/static/media/info-first.2a7b946befaec31f6c2d.png",
-    "static/media/main-search.png": "/Coworking/static/media/main-search.c99e88b6b4a675236905.png",
     "static/media/info-second.png": "/Coworking/static/media/info-second.323d2f191253b5bf52e3.png",
     "static/media/DidactGothic-Regular.ttf": "/Coworking/static/media/DidactGothic-Regular.37c8a8ed522192cd4de5.ttf",
+    "static/media/background.jpeg": "/Coworking/static/media/background.ab9bc985c6353804fe2f.jpeg",
     "static/media/logo.svg": "/Coworking/static/media/logo.f45cbf0eea63ea9604a34f1a55e1ab7b.svg",
     "index.html": "/Coworking/index.html",
     "static/media/format_list_bulleted.svg": "/Coworking/static/media/format_list_bulleted.747ad5fb4902b3525b2bc11e7ca78e7a.svg",
     "static/media/ukraine.svg": "/Coworking/static/media/ukraine.703bc5337a926046f4fd353c13da6963.svg",
     "static/media/person.svg": "/Coworking/static/media/person.bea9bee47ae95522cd7c01ad02d025c5.svg",
     "static/media/swap_vert.svg": "/Coworking/static/media/swap_vert.58970686f04234eec4f888045a1c2953.svg",
-    "main.afb45438.css.map": "/Coworking/static/css/main.afb45438.css.map",
-    "main.1782acb4.js.map": "/Coworking/static/js/main.1782acb4.js.map"
+    "main.516be1dc.css.map": "/Coworking/static/css/main.516be1dc.css.map",
+    "main.3bfaf178.js.map": "/Coworking/static/js/main.3bfaf178.js.map",
+    "490.09981ac9.chunk.css.map": "/Coworking/static/css/490.09981ac9.chunk.css.map",
+    "490.28740296.chunk.js.map": "/Coworking/static/js/490.28740296.chunk.js.map",
+    "349.965d9210.chunk.css.map": "/Coworking/static/css/349.965d9210.chunk.css.map",
+    "349.67566d29.chunk.js.map": "/Coworking/static/js/349.67566d29.chunk.js.map",
+    "195.dddb9de4.chunk.css.map": "/Coworking/static/css/195.dddb9de4.chunk.css.map",
+    "195.8e491830.chunk.js.map": "/Coworking/static/js/195.8e491830.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afb45438.css",
-    "static/js/main.1782acb4.js"
+    "static/css/main.516be1dc.css",
+    "static/js/main.3bfaf178.js"
   ]
 }
