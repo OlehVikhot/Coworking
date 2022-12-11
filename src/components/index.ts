@@ -1,7 +1,7 @@
 //Layout
 import { Footer } from "./Layout/Footer/Footer";
 import { HeaderLayout } from "./Layout/HeaderLayout/HeaderLayout";
-import { Layout } from "./Layout/Layout/Layout";
+import { Layout } from "../pages/Layout/Layout";
 import { ModalWindow } from "./Layout/ModalWindow/ModalWindow";
 import { NavigationBar } from "./Layout/NavigationBar/NavigationBar";
 

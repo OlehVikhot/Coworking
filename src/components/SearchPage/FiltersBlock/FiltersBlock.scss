@@ -55,6 +55,8 @@
     padding-bottom: 0.7rem;
     border-bottom: 1px solid black;
     width: 100%;
+    background-color: transparent;
+
     &::placeholder {
       font-size: 1.8rem;
     }
